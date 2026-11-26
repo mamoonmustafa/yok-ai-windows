@@ -13,6 +13,14 @@ No server, no account: bring your own AI (your own Claude Code, an API key, or a
 ![.NET Framework 4.7.2](https://img.shields.io/badge/.NET%20Framework-4.7.2-512BD4)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+<br/>
+
+[![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-Yok--AI%20v1.0.0%20%28zip%2C%209.5%20MB%29-2ea44f?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/mamoonmustafa/yok-ai-windows/releases/latest/download/Yok-AI-v1.0.0-windows.zip)
+
+**No coding needed:** download the zip → unzip it → double-click `YokAI.exe`.<br/>
+If Windows shows "Windows protected your PC", click **More info** → **Run anyway** (the app isn't code-signed yet).<br/>
+[All releases](https://github.com/mamoonmustafa/yok-ai-windows/releases)
+
 </div>
 
 > **About the screenshots:** Yok-AI hides its own window from screen capture, so a normal screenshot or recording shows only what is behind it. The pictures below were taken with the app started as `YokAI.exe --screenshot-mode`, which turns the hiding off for that run only.
@@ -80,7 +88,7 @@ Transcription needs no key. For better accuracy you can add your own [Azure Spee
 
 ## Download and install
 
-1. Download `Yok-AI-v1.0.0-windows.zip` from the [Releases](../../releases) page and unzip it anywhere (for example your Desktop). Nothing to install.
+1. Download [`Yok-AI-v1.0.0-windows.zip`](https://github.com/mamoonmustafa/yok-ai-windows/releases/latest/download/Yok-AI-v1.0.0-windows.zip) (or pick a version on the [Releases](../../releases) page) and unzip it anywhere (for example your Desktop). Nothing to install.
    Then double-click `YokAI.exe` inside the `Yok-AI` folder. Keep the other files next to it: they are needed for Azure transcription.
 2. Run it. Windows SmartScreen may warn about an unsigned app: click **More info > Run anyway**.
 
