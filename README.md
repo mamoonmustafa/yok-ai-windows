@@ -1,11 +1,12 @@
 <div align="center">
 
-# Yok-AI for Windows
+# Yok-AI: the invisible AI copilot for your calls
 
-**A free, open-source AI assistant that floats over your screen and stays out of screen shares.**
+**Live transcription, instant AI answers and screenshot Q&A, in a window screen shares can't see.**
 
-Ask questions, send screenshots, and get a live transcript of a call with AI notes as people talk.
-No server, no account: you bring your own AI (your own Claude Code, an API key, or a local model).
+A free, open-source Windows app that sits on top of your meeting, writes down what people say,
+and tells you the key points and what to ask next, while staying invisible to Zoom, Teams, Meet and screen recorders.
+No server, no account: bring your own AI (your own Claude Code, an API key, or a free local model).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Platform: Windows 10/11](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6)
