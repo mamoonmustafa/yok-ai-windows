@@ -80,7 +80,8 @@ Transcription needs no key. For better accuracy you can add your own [Azure Spee
 
 ## Download and install
 
-1. Download `YokAI.exe` from the [Releases](../../releases) page. It is one file; nothing to install.
+1. Download `Yok-AI-v1.0.0-windows.zip` from the [Releases](../../releases) page and unzip it anywhere (for example your Desktop). Nothing to install.
+   Then double-click `YokAI.exe` inside the `Yok-AI` folder. Keep the other files next to it: they are needed for Azure transcription.
 2. Run it. Windows SmartScreen may warn about an unsigned app: click **More info > Run anyway**.
 
 **Requirements**
@@ -139,7 +140,7 @@ If another app already uses one of these, Yok-AI shows a one-line warning at sta
 
 1. Install [Visual Studio 2022 or later](https://visualstudio.microsoft.com/) with the **.NET desktop development** workload.
 2. Open `StealthAssistWPF.sln`. NuGet packages restore on first build.
-3. Build **Release**. The output is `StealthAssistWPF\bin\Release\YokAI.exe` (one file; libraries are bundled by Costura.Fody).
+3. Build **Release**. The output is `StealthAssistWPF\bin\Release\YokAI.exe` (managed libraries are bundled by Costura.Fody; the Azure Speech native DLLs and the `x86` folder must stay next to it).
 
 From a Developer PowerShell:
 
