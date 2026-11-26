@@ -1,0 +1,49 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Remove API keys and personal text from anything you paste. Security problems go through SECURITY.md, not here.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: And what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open Yok-AI\n2. Press Ctrl+Alt+C\n3. ..."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Yok-AI version
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: dropdown
+    id: provider
+    attributes:
+      label: AI provider
+      options: [Claude Code, Claude API, OpenAI, Groq, OpenRouter, Ollama, Custom, Not related]
+  - type: dropdown
+    id: speech
+    attributes:
+      label: Transcription
+      options: [Free Windows speech, Azure Speech, Not related]
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or error text
+      description: Take screenshots with YokAI.exe --screenshot-mode. The error log is in %LOCALAPPDATA%\YokAI\error.log.

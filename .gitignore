@@ -1,0 +1,23 @@
+# Build output
+bin/
+obj/
+*_wpftmp.csproj
+packages/
+.vs/
+*.user
+*.suo
+
+# Never commit secrets or local settings
+.env
+.env.*
+*.pfx
+*.snk
+secrets.json
+appsettings.*.json
+settings.dat
+login_data.dat
+
+# OS junk
+._*
+.DS_Store
+Thumbs.db
